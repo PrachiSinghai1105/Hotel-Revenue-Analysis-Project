@@ -18,3 +18,7 @@ Select * from h2019 UNION
 Select * from h2020 ) SELECT * FROM hotels h
 left join market_segment ms ON h.market_segment = ms.market_segment
 Left join meal_cost mc ON mc.meal = h.meal ;
+
+Following is the link for visulization on Tableau public - 
+
+https://public.tableau.com/app/profile/prachi.singhai/viz/HotelTableauVisualization/Dashboard1?publish=yes
